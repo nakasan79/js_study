@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+3 <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="utf-8">
@@ -20,17 +20,37 @@
 
 2. $.appendを使って、新しい要素の追加をしてください。
 
-<p>文字の色を変える</p>
+<p id=p2>新しい要素の追加</p>
 
  <script>
   $(document).ready(function(){
-    $("p2").append("<b>Hello</b>");
+    $("#p2").append("<b>追加された部分</b>");
   });
   </script>
-  <style>p { background:yellow; }</style>
-</head>
-<body>
-  <p>I would like to say: </p>
+  
+3. $.appendToを使って2と同じことをしてください。
+
+<p id=p3>新しい要素の追加</p>
+
+ <script>
+  $(document).ready(function(){
+    $("<b>追加された部分</b>").appendto("#p3");
+  });
+  </script>
+
+4. $.ajaxの使い方を調べましょう。
+
+
+http://semooh.jp/jquery/api/ajax/jQuery.ajax/options/
+
+
+
+
+5. $.ajaxの簡単なサンプルを用意しましょう。
+
+別途作成
+
+
 
 
 </body>
@@ -40,9 +60,5 @@
 
 
 
-jQueryの基本的な使い方を調べましょう。
 
 
-3. $.appendToを使って2と同じことをしてください。
-4. $.ajaxの使い方を調べましょう。
-5. $.ajaxの簡単なサンプルを用意しましょう。
